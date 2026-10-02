@@ -29,7 +29,7 @@ overrides:
   undici: '>=6.23.0'
   tar: '>=7.5.7'
   diff: '>=4.0.4'
-  mongoose: ^8.22.1
+  mongoose: ^8.24.1
   swiper: '>=12.1.2'
   ajv: '>=8.18.0'
   cross-spawn: '>=7.0.5'
@@ -80,8 +80,8 @@ importers:
         specifier: ^6.7.0
         version: 6.7.0
       mongoose:
-        specifier: ^8.22.1
-        version: 8.24.0
+        specifier: ^8.24.1
+        version: 8.24.1
       morgan:
         specifier: ^1.12.1
         version: 1.12.1
@@ -98,8 +98,8 @@ packages:
   '@mongodb-js/saslprep@1.1.7':
     resolution: {integrity: sha512-dCHW/oEX0KJ4NjDULBo3JiOaK5+6axtpBbS+ao2ZInoAL9/YRQLhXzSNAFz7hP4nzLkIqsfYAK/PDE3+XHny0Q==}
 
-  '@mongodb-js/saslprep@1.4.11':
-    resolution: {integrity: sha512-o9rAHc0IpIjuPSxRutWpE1F62x7n+4mVS4rCNHkzhIUMQcc18bb6xEq5wd2NdN0WjepIyXIppRshYI2kQDOZVA==}
+  '@mongodb-js/saslprep@1.5.5':
+    resolution: {integrity: sha512-0PV4mvjGd2Q2/viDvXuoSNzTjQngHvtuWUry1vqvcK4Q/CTeO1zEKMf9set01DMocJnogl/pyNAdvyk+Pe0kQA==}
 
   '@types/webidl-conversions@7.0.3':
     resolution: {integrity: sha512-CiJJvcRtIgzadHCYXw7dqEnMNRjhGZlYK05Mj9OyktqV8uVT8fD2BFOB7S1uwBE3Kj2Z+4UyPmFw/Ixgw/LAlA==}
@@ -546,8 +546,8 @@ packages:
       socks:
         optional: true
 
-  mongoose@8.24.0:
-    resolution: {integrity: sha512-EEZwOibDPZ5uZN3bFapfnRskEbdljAf6sP9ln6u+P4e5IfkOAh6Tqw2g8/Tag++KHOAJ095WXT/c0uqRq4Vckg==}
+  mongoose@8.24.1:
+    resolution: {integrity: sha512-UpHBA0l5kHyKJQFjmBaFYQFo5sgz1DK0TRqDkOyBLYbqiIbKKhIvBpHWBXqeo0rgW4kGI1UhhAw+kTQZoj1BdA==}
     engines: {node: '>=16.20.1'}
 
   morgan@1.12.1:
@@ -771,7 +771,7 @@ snapshots:
     dependencies:
       sparse-bitfield: 3.0.3
 
-  '@mongodb-js/saslprep@1.4.11':
+  '@mongodb-js/saslprep@1.5.5':
     dependencies:
       sparse-bitfield: 3.0.3
 
@@ -1188,7 +1188,7 @@ snapshots:
 
   mongodb@6.20.0:
     dependencies:
-      '@mongodb-js/saslprep': 1.4.11
+      '@mongodb-js/saslprep': 1.5.5
       bson: 6.10.4
       mongodb-connection-string-url: 3.0.2
 
@@ -1198,7 +1198,7 @@ snapshots:
       bson: 6.7.0
       mongodb-connection-string-url: 3.0.1
 
-  mongoose@8.24.0:
+  mongoose@8.24.1:
     dependencies:
       bson: 6.10.4
       kareem: 2.6.3
