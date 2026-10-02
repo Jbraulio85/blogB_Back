@@ -27,7 +27,7 @@
     "jsonwebtoken": "^9.0.2",
     "mongodb": "^6.7.0",
     "mongoose": "^8.22.1",
-    "morgan": "^1.10.0",
+    "morgan": "^1.12.1",
     "uuid": "^11.1.1"
   },
   "devDependencies": {
